@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+* {
+     margin:0px;
+     padding:0px;
+} 
+body{
+  background-color:orange;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container h1{
+	text-align: center;
+	padding: 40px;
+}
+
+.flex-item img{
+	width: 300px;
+	height: 300px;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.text{
+    text-align: center;
+}
+
+.flex-item h6{
+    font-size: 20px;
+    font-weight: 600;
+}
